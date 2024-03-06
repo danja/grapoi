@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="utf-8">
-    <title>JSDoc: Source: Grapoi.js</title>
-
-    <script src="scripts/prettify/prettify.js"> </script>
-    <script src="scripts/prettify/lang-css.js"> </script>
+    <title>Grapoi.js - Documentation</title>
+    
+    
+    
+    
+    
+    <meta property="og:title" content=""/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content=""/>
+    
+    <meta property="og:url" content=""/>
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
-    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
 
-<div id="main">
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
 
-    <h1 class="page-title">Source: Grapoi.js</h1>
+<label for="nav-trigger" class="overlay"></label>
+
+<nav class="wrap">
+    
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="Grapoi.html" target="_blank" class="menu-item" id="grapoi_link" >Grapoi API</a></h2><h3>Classes</h3><ul><li><a href="Grapoi.html">Grapoi</a><ul class='methods'><li data-type='method'><a href="Grapoi.html#addIn">addIn</a></li><li data-type='method'><a href="Grapoi.html#addList">addList</a></li><li data-type='method'><a href="Grapoi.html#addOut">addOut</a></li><li data-type='method'><a href="Grapoi.html#base">base</a></li><li data-type='method'><a href="Grapoi.html#best">best</a></li><li data-type='method'><a href="Grapoi.html#clone">clone</a></li><li data-type='method'><a href="Grapoi.html#deleteIn">deleteIn</a></li><li data-type='method'><a href="Grapoi.html#deleteList">deleteList</a></li><li data-type='method'><a href="Grapoi.html#deleteOut">deleteOut</a></li><li data-type='method'><a href="Grapoi.html#distinct">distinct</a></li><li data-type='method'><a href="Grapoi.html#execute">execute</a></li><li data-type='method'><a href="Grapoi.html#executeAll">executeAll</a></li><li data-type='method'><a href="Grapoi.html#filter">filter</a></li><li data-type='method'><a href="Grapoi.html#hasIn">hasIn</a></li><li data-type='method'><a href="Grapoi.html#hasOut">hasOut</a></li><li data-type='method'><a href="Grapoi.html#in">in</a></li><li data-type='method'><a href="Grapoi.html#isAny">isAny</a></li><li data-type='method'><a href="Grapoi.html#isList">isList</a></li><li data-type='method'><a href="Grapoi.html#list">list</a></li><li data-type='method'><a href="Grapoi.html#map">map</a></li><li data-type='method'><a href="Grapoi.html#node">node</a></li><li data-type='method'><a href="Grapoi.html#out">out</a></li><li data-type='method'><a href="Grapoi.html#quads">quads</a></li><li data-type='method'><a href="Grapoi.html#rebase">rebase</a></li><li data-type='method'><a href="Grapoi.html#replace">replace</a></li><li data-type='method'><a href="Grapoi.html#score">score</a></li><li data-type='method'><a href="Grapoi.html#trim">trim</a></li></ul></li><li><a href="PathList.html">PathList</a><ul class='methods'><li data-type='method'><a href="PathList.html#addIn">addIn</a></li><li data-type='method'><a href="PathList.html#addList">addList</a></li><li data-type='method'><a href="PathList.html#addOut">addOut</a></li><li data-type='method'><a href="PathList.html#clone">clone</a></li><li data-type='method'><a href="PathList.html#deleteIn">deleteIn</a></li><li data-type='method'><a href="PathList.html#deleteList">deleteList</a></li><li data-type='method'><a href="PathList.html#deleteOut">deleteOut</a></li><li data-type='method'><a href="PathList.html#distinct">distinct</a></li><li data-type='method'><a href="PathList.html#execute">execute</a></li><li data-type='method'><a href="PathList.html#executeAll">executeAll</a></li><li data-type='method'><a href="PathList.html#filter">filter</a></li><li data-type='method'><a href="PathList.html#hasIn">hasIn</a></li><li data-type='method'><a href="PathList.html#hasOut">hasOut</a></li><li data-type='method'><a href="PathList.html#in">in</a></li><li data-type='method'><a href="PathList.html#isAny">isAny</a></li><li data-type='method'><a href="PathList.html#isList">isList</a></li><li data-type='method'><a href="PathList.html#list">list</a></li><li data-type='method'><a href="PathList.html#map">map</a></li><li data-type='method'><a href="PathList.html#node">node</a></li><li data-type='method'><a href="PathList.html#out">out</a></li><li data-type='method'><a href="PathList.html#quads">quads</a></li><li data-type='method'><a href="PathList.html#trim">trim</a></li></ul></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">Grapoi.js</h1>
+    
 
     
 
@@ -37,7 +65,7 @@ import Path from './Path.js'
 import PathList from './PathList.js'
 
 /**
- * A graph pointer object
+ * Class representing a graph pointer
  * @extends PathList
  */
 class Grapoi extends PathList {
@@ -50,8 +78,10 @@ class Grapoi extends PathList {
    * @param {Term[]} terms Terms for the pointers
    * @param {Term} graph Graph for the pointers
    * @param {Term[]} graphs Graphs for graph pointers
+   * @example
+   * example here
    */
-  constructor ({ dataset, factory, ptrs, term, terms, graph, graphs }) {
+  constructor({ dataset, factory, ptrs, term, terms, graph, graphs }) {
     if (term || terms) {
       terms = terms || term
     }
@@ -67,11 +97,11 @@ class Grapoi extends PathList {
     super({ dataset, factory, ptrs, graphs })
   }
 
-  _toTerm (value) {
+  _toTerm(value) {
     return toTerm(value, { factory: this.factory })
   }
 
-  _toTermArray (values) {
+  _toTermArray(values) {
     return toTermArray(values, { factory: this.factory })
   }
 
@@ -82,7 +112,7 @@ class Grapoi extends PathList {
    * @param {function} [callback] Function called for each subject as a pointer argument
    * @returns {Grapoi} this
    */
-  addIn (predicates, subjects, callback) {
+  addIn(predicates, subjects, callback) {
     if (typeof subjects === 'function') {
       callback = subjects
       subjects = null
@@ -101,7 +131,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} [items] List items
    * @returns {Grapoi} this
    */
-  addList (predicates, items) {
+  addList(predicates, items) {
     return super.addList(this._toTermArray(predicates), this._toTermArray(items))
   }
 
@@ -112,7 +142,7 @@ class Grapoi extends PathList {
    * @param {function} [callback] Function called for each subject as a pointer argument
    * @returns {Grapoi} this
    */
-  addOut (predicates, objects, callback) {
+  addOut(predicates, objects, callback) {
     if (typeof objects === 'function') {
       callback = objects
       objects = null
@@ -130,7 +160,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} base Base of the terms
    * @returns {Constructor} Instance with a single pointer with the term based
    */
-  base (base) {
+  base(base) {
     if (!base) {
       throw new Error('base parameter is required')
     }
@@ -149,7 +179,7 @@ class Grapoi extends PathList {
    * @param {function} score Score function
    * @returns {Constructor} Instance with a single pointer with the best score
    */
-  best (score) {
+  best(score) {
     return this.score(score, { limit: 1 })
   }
 
@@ -159,7 +189,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} [subjects] Subjects of the quads
    * @returns {Grapoi} this
    */
-  deleteIn (predicates, subjects) {
+  deleteIn(predicates, subjects) {
     return super.deleteIn(this._toTermArray(predicates), this._toTermArray(subjects))
   }
 
@@ -168,7 +198,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} predicates Predicates of the lists
    * @returns {Grapoi} this
    */
-  deleteList (predicates) {
+  deleteList(predicates) {
     return super.deleteList(this._toTermArray(predicates))
   }
 
@@ -178,7 +208,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} [objects] Objects of the quads
    * @returns {Constructor} this
    */
-  deleteOut (predicates, objects) {
+  deleteOut(predicates, objects) {
     return super.deleteOut(this._toTermArray(predicates), this._toTermArray(objects))
   }
 
@@ -188,7 +218,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} [subjects] Subjects of the quads
    * @returns {Constructor} Instance that contains only the filtered pointers
    */
-  hasIn (predicates, subjects) {
+  hasIn(predicates, subjects) {
     return super.hasIn(this._toTermArray(predicates), this._toTermArray(subjects))
   }
 
@@ -198,7 +228,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} [objects] Objects of the quads
    * @returns {Constructor} Instance that contains only the filtered pointers
    */
-  hasOut (predicates, objects) {
+  hasOut(predicates, objects) {
     return super.hasOut(this._toTermArray(predicates), this._toTermArray(objects))
   }
 
@@ -208,7 +238,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} [subjects] Subjects of the quads
    * @returns {Constructor} Instance with pointers of the traversed target terms
    */
-  in (predicates, subjects) {
+  in(predicates, subjects) {
     return super.in(this._toTermArray(predicates), this._toTermArray(subjects))
   }
 
@@ -218,7 +248,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} [objects] Objects of the quads
    * @returns {Constructor} Instance with pointers of the traversed target terms
    */
-  out (predicates, objects) {
+  out(predicates, objects) {
     return super.out(this._toTermArray(predicates), this._toTermArray(objects))
   }
 
@@ -227,7 +257,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} predicates Terms for the new pointers
    * @returns {Constructor} Instance with pointers of the selected terms
    */
-  node (terms = null) {
+  node(terms = null) {
     return super.node(this._toTermArray(terms))
   }
 
@@ -236,7 +266,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} base New base of the terms
    * @returns {Constructor} Instance with a single pointer with the new base as the term
    */
-  rebase (base) {
+  rebase(base) {
     if (!base) {
       throw new Error('base parameter is required')
     }
@@ -255,7 +285,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} replacement Term used as replacement
    * @returns {Constructor} Instance with a single pointer with the replacement as the term
    */
-  replace (replacement) {
+  replace(replacement) {
     if (!replacement) {
       throw new Error('replacement parameter is required')
     }
@@ -276,7 +306,7 @@ class Grapoi extends PathList {
    * @param {Number} [offset] Offset for the result pointers
    * @returns {Constructor} Instance of the scored pointers, sorted and sliced.
    */
-  score (score, { limit = Infinity, offset = 0 } = {}) {
+  score(score, { limit = Infinity, offset = 0 } = {}) {
     const ptrs = sortByScore(score(this))
       .slice(offset, offset + limit)
       .map(ptr => new Path({ ...ptr, factory: this.factory }))
@@ -293,19 +323,21 @@ export default Grapoi
 
 
 
+    
+    
 </div>
-
-<nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Grapoi.html">Grapoi</a></li><li><a href="PathList.html">PathList</a></li></ul>
-</nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Sun Mar 03 2024 19:30:17 GMT+0100 (Central European Standard Time)
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.2</a> on Wed Mar 06 2024 15:33:48 GMT+0100 (Central European Standard Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
 </footer>
 
-<script> prettyPrint(); </script>
-<script src="scripts/linenumber.js"> </script>
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
 </body>
 </html>

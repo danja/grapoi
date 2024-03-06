@@ -9,7 +9,7 @@ import Path from './Path.js'
 import PathList from './PathList.js'
 
 /**
- * A graph pointer object
+ * Class representing a graph pointer
  * @extends PathList
  */
 class Grapoi extends PathList {
@@ -22,8 +22,10 @@ class Grapoi extends PathList {
    * @param {Term[]} terms Terms for the pointers
    * @param {Term} graph Graph for the pointers
    * @param {Term[]} graphs Graphs for graph pointers
+   * @example
+   * example here
    */
-  constructor ({ dataset, factory, ptrs, term, terms, graph, graphs }) {
+  constructor({ dataset, factory, ptrs, term, terms, graph, graphs }) {
     if (term || terms) {
       terms = terms || term
     }
@@ -39,11 +41,11 @@ class Grapoi extends PathList {
     super({ dataset, factory, ptrs, graphs })
   }
 
-  _toTerm (value) {
+  _toTerm(value) {
     return toTerm(value, { factory: this.factory })
   }
 
-  _toTermArray (values) {
+  _toTermArray(values) {
     return toTermArray(values, { factory: this.factory })
   }
 
@@ -54,7 +56,7 @@ class Grapoi extends PathList {
    * @param {function} [callback] Function called for each subject as a pointer argument
    * @returns {Grapoi} this
    */
-  addIn (predicates, subjects, callback) {
+  addIn(predicates, subjects, callback) {
     if (typeof subjects === 'function') {
       callback = subjects
       subjects = null
@@ -73,7 +75,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} [items] List items
    * @returns {Grapoi} this
    */
-  addList (predicates, items) {
+  addList(predicates, items) {
     return super.addList(this._toTermArray(predicates), this._toTermArray(items))
   }
 
@@ -84,7 +86,7 @@ class Grapoi extends PathList {
    * @param {function} [callback] Function called for each subject as a pointer argument
    * @returns {Grapoi} this
    */
-  addOut (predicates, objects, callback) {
+  addOut(predicates, objects, callback) {
     if (typeof objects === 'function') {
       callback = objects
       objects = null
@@ -102,7 +104,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} base Base of the terms
    * @returns {Constructor} Instance with a single pointer with the term based
    */
-  base (base) {
+  base(base) {
     if (!base) {
       throw new Error('base parameter is required')
     }
@@ -121,7 +123,7 @@ class Grapoi extends PathList {
    * @param {function} score Score function
    * @returns {Constructor} Instance with a single pointer with the best score
    */
-  best (score) {
+  best(score) {
     return this.score(score, { limit: 1 })
   }
 
@@ -131,7 +133,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} [subjects] Subjects of the quads
    * @returns {Grapoi} this
    */
-  deleteIn (predicates, subjects) {
+  deleteIn(predicates, subjects) {
     return super.deleteIn(this._toTermArray(predicates), this._toTermArray(subjects))
   }
 
@@ -140,7 +142,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} predicates Predicates of the lists
    * @returns {Grapoi} this
    */
-  deleteList (predicates) {
+  deleteList(predicates) {
     return super.deleteList(this._toTermArray(predicates))
   }
 
@@ -150,7 +152,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} [objects] Objects of the quads
    * @returns {Constructor} this
    */
-  deleteOut (predicates, objects) {
+  deleteOut(predicates, objects) {
     return super.deleteOut(this._toTermArray(predicates), this._toTermArray(objects))
   }
 
@@ -160,7 +162,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} [subjects] Subjects of the quads
    * @returns {Constructor} Instance that contains only the filtered pointers
    */
-  hasIn (predicates, subjects) {
+  hasIn(predicates, subjects) {
     return super.hasIn(this._toTermArray(predicates), this._toTermArray(subjects))
   }
 
@@ -170,7 +172,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} [objects] Objects of the quads
    * @returns {Constructor} Instance that contains only the filtered pointers
    */
-  hasOut (predicates, objects) {
+  hasOut(predicates, objects) {
     return super.hasOut(this._toTermArray(predicates), this._toTermArray(objects))
   }
 
@@ -180,7 +182,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} [subjects] Subjects of the quads
    * @returns {Constructor} Instance with pointers of the traversed target terms
    */
-  in (predicates, subjects) {
+  in(predicates, subjects) {
     return super.in(this._toTermArray(predicates), this._toTermArray(subjects))
   }
 
@@ -190,7 +192,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} [objects] Objects of the quads
    * @returns {Constructor} Instance with pointers of the traversed target terms
    */
-  out (predicates, objects) {
+  out(predicates, objects) {
     return super.out(this._toTermArray(predicates), this._toTermArray(objects))
   }
 
@@ -199,7 +201,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} predicates Terms for the new pointers
    * @returns {Constructor} Instance with pointers of the selected terms
    */
-  node (terms = null) {
+  node(terms = null) {
     return super.node(this._toTermArray(terms))
   }
 
@@ -208,7 +210,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} base New base of the terms
    * @returns {Constructor} Instance with a single pointer with the new base as the term
    */
-  rebase (base) {
+  rebase(base) {
     if (!base) {
       throw new Error('base parameter is required')
     }
@@ -227,7 +229,7 @@ class Grapoi extends PathList {
    * @param {Grapoi|Grapoi[]|Term|Term[]} replacement Term used as replacement
    * @returns {Constructor} Instance with a single pointer with the replacement as the term
    */
-  replace (replacement) {
+  replace(replacement) {
     if (!replacement) {
       throw new Error('replacement parameter is required')
     }
@@ -248,7 +250,7 @@ class Grapoi extends PathList {
    * @param {Number} [offset] Offset for the result pointers
    * @returns {Constructor} Instance of the scored pointers, sorted and sliced.
    */
-  score (score, { limit = Infinity, offset = 0 } = {}) {
+  score(score, { limit = Infinity, offset = 0 } = {}) {
     const ptrs = sortByScore(score(this))
       .slice(offset, offset + limit)
       .map(ptr => new Path({ ...ptr, factory: this.factory }))

@@ -38,7 +38,7 @@
 <nav class="wrap">
     
     
-    <h2><a href="index.html">Home</a></h2><h2><a href="Grapoi.html" target="_blank" class="menu-item" id="grapoi_link" >Grapoi API</a></h2><h3>Classes</h3><ul><li><a href="Grapoi.html">Grapoi</a><ul class='methods'><li data-type='method'><a href="Grapoi.html#addIn">addIn</a></li><li data-type='method'><a href="Grapoi.html#addList">addList</a></li><li data-type='method'><a href="Grapoi.html#addOut">addOut</a></li><li data-type='method'><a href="Grapoi.html#base">base</a></li><li data-type='method'><a href="Grapoi.html#best">best</a></li><li data-type='method'><a href="Grapoi.html#clone">clone</a></li><li data-type='method'><a href="Grapoi.html#deleteIn">deleteIn</a></li><li data-type='method'><a href="Grapoi.html#deleteList">deleteList</a></li><li data-type='method'><a href="Grapoi.html#deleteOut">deleteOut</a></li><li data-type='method'><a href="Grapoi.html#distinct">distinct</a></li><li data-type='method'><a href="Grapoi.html#execute">execute</a></li><li data-type='method'><a href="Grapoi.html#executeAll">executeAll</a></li><li data-type='method'><a href="Grapoi.html#filter">filter</a></li><li data-type='method'><a href="Grapoi.html#hasIn">hasIn</a></li><li data-type='method'><a href="Grapoi.html#hasOut">hasOut</a></li><li data-type='method'><a href="Grapoi.html#in">in</a></li><li data-type='method'><a href="Grapoi.html#isAny">isAny</a></li><li data-type='method'><a href="Grapoi.html#isList">isList</a></li><li data-type='method'><a href="Grapoi.html#list">list</a></li><li data-type='method'><a href="Grapoi.html#map">map</a></li><li data-type='method'><a href="Grapoi.html#node">node</a></li><li data-type='method'><a href="Grapoi.html#out">out</a></li><li data-type='method'><a href="Grapoi.html#quads">quads</a></li><li data-type='method'><a href="Grapoi.html#rebase">rebase</a></li><li data-type='method'><a href="Grapoi.html#replace">replace</a></li><li data-type='method'><a href="Grapoi.html#score">score</a></li><li data-type='method'><a href="Grapoi.html#trim">trim</a></li></ul></li><li><a href="PathList.html">PathList</a><ul class='methods'><li data-type='method'><a href="PathList.html#addIn">addIn</a></li><li data-type='method'><a href="PathList.html#addList">addList</a></li><li data-type='method'><a href="PathList.html#addOut">addOut</a></li><li data-type='method'><a href="PathList.html#clone">clone</a></li><li data-type='method'><a href="PathList.html#deleteIn">deleteIn</a></li><li data-type='method'><a href="PathList.html#deleteList">deleteList</a></li><li data-type='method'><a href="PathList.html#deleteOut">deleteOut</a></li><li data-type='method'><a href="PathList.html#distinct">distinct</a></li><li data-type='method'><a href="PathList.html#execute">execute</a></li><li data-type='method'><a href="PathList.html#executeAll">executeAll</a></li><li data-type='method'><a href="PathList.html#filter">filter</a></li><li data-type='method'><a href="PathList.html#hasIn">hasIn</a></li><li data-type='method'><a href="PathList.html#hasOut">hasOut</a></li><li data-type='method'><a href="PathList.html#in">in</a></li><li data-type='method'><a href="PathList.html#isAny">isAny</a></li><li data-type='method'><a href="PathList.html#isList">isList</a></li><li data-type='method'><a href="PathList.html#list">list</a></li><li data-type='method'><a href="PathList.html#map">map</a></li><li data-type='method'><a href="PathList.html#node">node</a></li><li data-type='method'><a href="PathList.html#out">out</a></li><li data-type='method'><a href="PathList.html#quads">quads</a></li><li data-type='method'><a href="PathList.html#trim">trim</a></li></ul></li></ul>
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://myproject.com" target="_blank" class="menu-item" id="website_link" >Grapoi</a></h2>
     
 </nav>
 
@@ -62,7 +62,7 @@
         
         </h2>
         
-            <div class="class-description usertext"><p>Class representing a graph pointer</p></div>
+            <div class="class-description usertext"><p>A graph pointer object</p></div>
         
     
 </header>
@@ -77,7 +77,7 @@
     <h2>Constructor</h2>
     
 
-    <h4 class="name" id="Grapoi"><span class="type-signature"></span>new Grapoi<span class="signature">(dataset, factory, ptrs, term, terms, graph, graphs)</span><span class="type-signature"></span></h4>
+    <h4 class="name" id="Grapoi"><span class="type-signature"></span>new Grapoi<span class="signature">()</span><span class="type-signature"></span></h4>
 
     
 
@@ -85,9 +85,6 @@
 
 
 <dl class="details">
-    
-    <dt class="tag-description">Description:</dt>
-    <dd class="tag-description"><ul class="dummy"><li><p>Create a new instance</p></li></ul></dd>
     
 
     
@@ -138,205 +135,6 @@
 
 
 
-    <h5 class="h5-examples">Example</h5>
-    
-    <pre class="prettyprint"><code>example here</code></pre>
-
-
-
-
-    <h5 class="h5-parameters">Parameters:</h5>
-    
-
-<table class="params">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>dataset</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">DatasetCore</span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>Dataset for the pointers</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>factory</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Environment</span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>Factory for new quads</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>ptrs</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Array.&lt;Path></span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>Use existing pointers</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>term</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Term</span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>Term for the pointers</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>terms</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Array.&lt;Term></span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>Terms for the pointers</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>graph</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Term</span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>Graph for the pointers</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>graphs</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">Array.&lt;Term></span>
-
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>Graphs for graph pointers</p></td>
-        </tr>
-
-    
-    </tbody>
-</table>
 
 
 
@@ -829,7 +627,7 @@
 
     
 
-    <h4 class="name" id="addIn"><span class="type-signature"></span>addIn<span class="signature">(predicates, subjects<span class="signature-attributes">opt</span>, callback<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {<a href="Grapoi.html">Grapoi</a>}</span></h4>
+    <h4 class="name" id="addIn"><span class="type-signature"></span>addIn<span class="signature">(predicates, subjects<span class="signature-attributes">opt</span>, callback<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {<a href="global.html#Grapoi">Grapoi</a>}</span></h4>
 
     
 
@@ -845,7 +643,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line59">line 59</a>
+        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line58">line 58</a>
     </li></ul></dd>
     
 
@@ -930,10 +728,10 @@
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -971,10 +769,10 @@
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -1072,7 +870,7 @@
     </dt>
     <dd>
         
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 
 
 
@@ -1088,7 +886,7 @@
 
     
 
-    <h4 class="name" id="addList"><span class="type-signature"></span>addList<span class="signature">(predicates, items<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {<a href="Grapoi.html">Grapoi</a>}</span></h4>
+    <h4 class="name" id="addList"><span class="type-signature"></span>addList<span class="signature">(predicates, items<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {<a href="global.html#Grapoi">Grapoi</a>}</span></h4>
 
     
 
@@ -1104,7 +902,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line78">line 78</a>
+        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line77">line 77</a>
     </li></ul></dd>
     
 
@@ -1189,10 +987,10 @@
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -1230,10 +1028,10 @@
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -1297,7 +1095,7 @@
     </dt>
     <dd>
         
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 
 
 
@@ -1313,7 +1111,7 @@
 
     
 
-    <h4 class="name" id="addOut"><span class="type-signature"></span>addOut<span class="signature">(predicates, objects<span class="signature-attributes">opt</span>, callback<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {<a href="Grapoi.html">Grapoi</a>}</span></h4>
+    <h4 class="name" id="addOut"><span class="type-signature"></span>addOut<span class="signature">(predicates, objects<span class="signature-attributes">opt</span>, callback<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {<a href="global.html#Grapoi">Grapoi</a>}</span></h4>
 
     
 
@@ -1329,7 +1127,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line89">line 89</a>
+        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line88">line 88</a>
     </li></ul></dd>
     
 
@@ -1414,10 +1212,10 @@
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -1455,10 +1253,10 @@
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -1556,7 +1354,7 @@
     </dt>
     <dd>
         
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 
 
 
@@ -1588,7 +1386,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line107">line 107</a>
+        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line106">line 106</a>
     </li></ul></dd>
     
 
@@ -1666,10 +1464,10 @@
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -1755,7 +1553,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line126">line 126</a>
+        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line125">line 125</a>
     </li></ul></dd>
     
 
@@ -2054,7 +1852,7 @@
 
     
 
-    <h4 class="name" id="deleteIn"><span class="type-signature"></span>deleteIn<span class="signature">(predicates, subjects<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {<a href="Grapoi.html">Grapoi</a>}</span></h4>
+    <h4 class="name" id="deleteIn"><span class="type-signature"></span>deleteIn<span class="signature">(predicates, subjects<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {<a href="global.html#Grapoi">Grapoi</a>}</span></h4>
 
     
 
@@ -2070,7 +1868,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line136">line 136</a>
+        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line135">line 135</a>
     </li></ul></dd>
     
 
@@ -2155,10 +1953,10 @@
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -2196,10 +1994,10 @@
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -2263,7 +2061,7 @@
     </dt>
     <dd>
         
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 
 
 
@@ -2279,7 +2077,7 @@
 
     
 
-    <h4 class="name" id="deleteList"><span class="type-signature"></span>deleteList<span class="signature">(predicates)</span><span class="type-signature"> &rarr; {<a href="Grapoi.html">Grapoi</a>}</span></h4>
+    <h4 class="name" id="deleteList"><span class="type-signature"></span>deleteList<span class="signature">(predicates)</span><span class="type-signature"> &rarr; {<a href="global.html#Grapoi">Grapoi</a>}</span></h4>
 
     
 
@@ -2295,7 +2093,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line145">line 145</a>
+        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line144">line 144</a>
     </li></ul></dd>
     
 
@@ -2378,10 +2176,10 @@
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -2435,7 +2233,7 @@
     </dt>
     <dd>
         
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 
 
 
@@ -2467,7 +2265,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line155">line 155</a>
+        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line154">line 154</a>
     </li></ul></dd>
     
 
@@ -2552,10 +2350,10 @@
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -2593,10 +2391,10 @@
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -3277,7 +3075,7 @@ The path of the pointers is trimmed.</p></li></ul></dd>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line165">line 165</a>
+        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line164">line 164</a>
     </li></ul></dd>
     
 
@@ -3362,10 +3160,10 @@ The path of the pointers is trimmed.</p></li></ul></dd>
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -3403,10 +3201,10 @@ The path of the pointers is trimmed.</p></li></ul></dd>
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -3502,7 +3300,7 @@ The path of the pointers is trimmed.</p></li></ul></dd>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line175">line 175</a>
+        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line174">line 174</a>
     </li></ul></dd>
     
 
@@ -3587,10 +3385,10 @@ The path of the pointers is trimmed.</p></li></ul></dd>
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -3628,10 +3426,10 @@ The path of the pointers is trimmed.</p></li></ul></dd>
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -3727,7 +3525,7 @@ The path of the pointers is trimmed.</p></li></ul></dd>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line185">line 185</a>
+        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line184">line 184</a>
     </li></ul></dd>
     
 
@@ -3812,10 +3610,10 @@ The path of the pointers is trimmed.</p></li></ul></dd>
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -3853,10 +3651,10 @@ The path of the pointers is trimmed.</p></li></ul></dd>
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -4451,7 +4249,7 @@ The path of the pointers is trimmed.</p></li></ul></dd>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line204">line 204</a>
+        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line203">line 203</a>
     </li></ul></dd>
     
 
@@ -4534,10 +4332,10 @@ The path of the pointers is trimmed.</p></li></ul></dd>
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -4623,7 +4421,7 @@ The path of the pointers is trimmed.</p></li></ul></dd>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line195">line 195</a>
+        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line194">line 194</a>
     </li></ul></dd>
     
 
@@ -4708,10 +4506,10 @@ The path of the pointers is trimmed.</p></li></ul></dd>
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -4749,10 +4547,10 @@ The path of the pointers is trimmed.</p></li></ul></dd>
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -4961,7 +4759,7 @@ The path of the pointers is trimmed.</p></li></ul></dd>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line213">line 213</a>
+        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line212">line 212</a>
     </li></ul></dd>
     
 
@@ -5039,10 +4837,10 @@ The path of the pointers is trimmed.</p></li></ul></dd>
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -5128,7 +4926,7 @@ The path of the pointers is trimmed.</p></li></ul></dd>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line232">line 232</a>
+        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line231">line 231</a>
     </li></ul></dd>
     
 
@@ -5206,10 +5004,10 @@ The path of the pointers is trimmed.</p></li></ul></dd>
             <td class="type">
             
                 
-<span class="param-type"><a href="Grapoi.html">Grapoi</a></span>
+<span class="param-type"><a href="global.html#Grapoi">Grapoi</a></span>
 |
 
-<span class="param-type">Array.&lt;<a href="Grapoi.html">Grapoi</a>></span>
+<span class="param-type">Array.&lt;<a href="global.html#Grapoi">Grapoi</a>></span>
 |
 
 <span class="param-type">Term</span>
@@ -5295,7 +5093,7 @@ The path of the pointers is trimmed.</p></li></ul></dd>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line253">line 253</a>
+        <a href="Grapoi.js.html">Grapoi.js</a>, <a href="Grapoi.js.html#line252">line 252</a>
     </li></ul></dd>
     
 
@@ -5638,18 +5436,31 @@ The path of the pointers is trimmed.</p></li></ul></dd>
 
     
     
+    <div id="disqus_thread"></div>
+    <script>
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//grapoi.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
 </div>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.2</a> on Wed Mar 06 2024 15:33:48 GMT+0100 (Central European Standard Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.2</a> on Mon Mar 04 2024 12:06:10 GMT+0100 (Central European Standard Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
 </footer>
 
 <script>prettyPrint();</script>
 <script src="scripts/polyfill.js"></script>
 <script src="scripts/linenumber.js"></script>
 
+
+<script src="scripts/collapse.js" defer></script>
 
 
 </body>

@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="utf-8">
-    <title>JSDoc: Source: PathList.js</title>
-
-    <script src="scripts/prettify/prettify.js"> </script>
-    <script src="scripts/prettify/lang-css.js"> </script>
+    <title>PathList.js - Documentation</title>
+    
+    
+    
+    
+    
+    <meta property="og:title" content=""/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content=""/>
+    
+    <meta property="og:url" content=""/>
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
-    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
 
-<div id="main">
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
 
-    <h1 class="page-title">Source: PathList.js</h1>
+<label for="nav-trigger" class="overlay"></label>
+
+<nav class="wrap">
+    
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="Grapoi.html" target="_blank" class="menu-item" id="grapoi_link" >Grapoi API</a></h2><h3>Classes</h3><ul><li><a href="Grapoi.html">Grapoi</a><ul class='methods'><li data-type='method'><a href="Grapoi.html#addIn">addIn</a></li><li data-type='method'><a href="Grapoi.html#addList">addList</a></li><li data-type='method'><a href="Grapoi.html#addOut">addOut</a></li><li data-type='method'><a href="Grapoi.html#base">base</a></li><li data-type='method'><a href="Grapoi.html#best">best</a></li><li data-type='method'><a href="Grapoi.html#clone">clone</a></li><li data-type='method'><a href="Grapoi.html#deleteIn">deleteIn</a></li><li data-type='method'><a href="Grapoi.html#deleteList">deleteList</a></li><li data-type='method'><a href="Grapoi.html#deleteOut">deleteOut</a></li><li data-type='method'><a href="Grapoi.html#distinct">distinct</a></li><li data-type='method'><a href="Grapoi.html#execute">execute</a></li><li data-type='method'><a href="Grapoi.html#executeAll">executeAll</a></li><li data-type='method'><a href="Grapoi.html#filter">filter</a></li><li data-type='method'><a href="Grapoi.html#hasIn">hasIn</a></li><li data-type='method'><a href="Grapoi.html#hasOut">hasOut</a></li><li data-type='method'><a href="Grapoi.html#in">in</a></li><li data-type='method'><a href="Grapoi.html#isAny">isAny</a></li><li data-type='method'><a href="Grapoi.html#isList">isList</a></li><li data-type='method'><a href="Grapoi.html#list">list</a></li><li data-type='method'><a href="Grapoi.html#map">map</a></li><li data-type='method'><a href="Grapoi.html#node">node</a></li><li data-type='method'><a href="Grapoi.html#out">out</a></li><li data-type='method'><a href="Grapoi.html#quads">quads</a></li><li data-type='method'><a href="Grapoi.html#rebase">rebase</a></li><li data-type='method'><a href="Grapoi.html#replace">replace</a></li><li data-type='method'><a href="Grapoi.html#score">score</a></li><li data-type='method'><a href="Grapoi.html#trim">trim</a></li></ul></li><li><a href="PathList.html">PathList</a><ul class='methods'><li data-type='method'><a href="PathList.html#addIn">addIn</a></li><li data-type='method'><a href="PathList.html#addList">addList</a></li><li data-type='method'><a href="PathList.html#addOut">addOut</a></li><li data-type='method'><a href="PathList.html#clone">clone</a></li><li data-type='method'><a href="PathList.html#deleteIn">deleteIn</a></li><li data-type='method'><a href="PathList.html#deleteList">deleteList</a></li><li data-type='method'><a href="PathList.html#deleteOut">deleteOut</a></li><li data-type='method'><a href="PathList.html#distinct">distinct</a></li><li data-type='method'><a href="PathList.html#execute">execute</a></li><li data-type='method'><a href="PathList.html#executeAll">executeAll</a></li><li data-type='method'><a href="PathList.html#filter">filter</a></li><li data-type='method'><a href="PathList.html#hasIn">hasIn</a></li><li data-type='method'><a href="PathList.html#hasOut">hasOut</a></li><li data-type='method'><a href="PathList.html#in">in</a></li><li data-type='method'><a href="PathList.html#isAny">isAny</a></li><li data-type='method'><a href="PathList.html#isList">isList</a></li><li data-type='method'><a href="PathList.html#list">list</a></li><li data-type='method'><a href="PathList.html#map">map</a></li><li data-type='method'><a href="PathList.html#node">node</a></li><li data-type='method'><a href="PathList.html#out">out</a></li><li data-type='method'><a href="PathList.html#quads">quads</a></li><li data-type='method'><a href="PathList.html#trim">trim</a></li></ul></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">PathList.js</h1>
+    
 
     
 
@@ -442,19 +470,21 @@ export default PathList
 
 
 
+    
+    
 </div>
-
-<nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="Grapoi.html">Grapoi</a></li><li><a href="PathList.html">PathList</a></li></ul>
-</nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Sun Mar 03 2024 19:30:17 GMT+0100 (Central European Standard Time)
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.2</a> on Wed Mar 06 2024 15:33:48 GMT+0100 (Central European Standard Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
 </footer>
 
-<script> prettyPrint(); </script>
-<script src="scripts/linenumber.js"> </script>
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
 </body>
 </html>
